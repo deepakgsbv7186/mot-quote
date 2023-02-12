@@ -1,0 +1,39 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+body{
+    background-color: #F48484;
+}
+
+.container{
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    /* bring your own prefixes */
+    transform: translate(-50%, -50%);
+    background-color: #E8D2A6;
+    border-radius: 10px;
+    box-shadow: 10px 10px 5px #F55050;
+    height: 150px;
+    text-align: center;
+}
+
+.container #quote{
+    cursor: pointer;
+    padding: 20px;
+    font-size: 1.6rem;
+    font-family: 'Poppins', sans-serif;
+    height: 100px;
+}
+.container #author{
+    padding: 10px;
+    font-size: 1.1rem;
+    font-weight: 500;
+    font-family: 'Sacramento', cursive;
+    position: absolute;
+    right: 10%;
+}
